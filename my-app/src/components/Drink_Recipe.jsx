@@ -1,18 +1,23 @@
-import React from 'react'
+import React, { Component } from 'react'
+// import axios from '.axios'
+
+class Drink_Recipe extends Component {
+//     constructor (props){
+//         super(props)
+//         this.state={
+//         cocktails: []
+//          }
+//         }
 
 
-function Drink_Recipe(props){
+//    render() {
+//     return(
+//        <div className= "cocktails">
+//            <h1> Drink Recipe link is working</h1>
+//        </div>
+//          );
+//     }
 
-   return(
-       <div className= "cocktails">
-           {props.cocktails.map(cocktail => (
-               <NavLink className= 'cocktailCard' to={`/${cocktail.hero_id}`}>
-               <img className= 'photos' src= {cocktail.image_url}/>
-               <h1>{cocktail.name}</h1>
-               </NavLink>
-           ))}
-       </div>
-   );
 
 }
 

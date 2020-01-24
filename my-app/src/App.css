@@ -21,6 +21,7 @@ letter-spacing: 5px
 }
 
 .Footer {
-  background-color: aqua;
+  background-color: Black;
+  color: white;
   padding: 15px;
 }

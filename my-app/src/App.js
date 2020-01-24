@@ -5,6 +5,7 @@ import axios from 'axios'
 import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
+import Drink_Recipe from './components/Drink_Recipe'
 
 
 //url for Drink search
@@ -32,16 +33,14 @@ class App extends Component {
      }
     }
 
-
     //setting up API call for 1st section -> liquor info
 
         fetchDrinks = async () => {
-          const response = await axios.get('https://www.thecocktaildb.com/api/json/v1/1/search.php?i=vodka')
+          const response = await axios.get(testURL)
           const data= response.data
           this.setState({
             liquors: data
           })
-          console.log(data)
         }
 
         //component did mount for liquor info
@@ -54,33 +53,20 @@ class App extends Component {
 
     render () {
       console.log(this.state.liquors)
+     
+     
       return (
+
         <div className="App">
-              <Header />
-          <main>
-
-        
-          {/* <Route
-        exact path= '/'
-        component= {
-        ()=> <Heroes newHero={this.state.characters}/> 
-        }/>
-
-        <Route
-        exact path= '/:id'
-        component={
-          (navProps)=> <Profile navProps={navProps} />
-        }/> */}
-
-             
-            <Main />
-
-           
-           
-          </main>
-        
-          <Footer/>
           
+          <Header />
+          
+             
+          <Main />
+
+          
+          <Footer/>  
+
         </div>
        );
      }
