@@ -5,13 +5,12 @@ class Footer extends Component{
     render () {
         return (
           <div className="Footer">
-            <h1> Footer is working</h1>
+          <h2>Footer is working</h2> 
           </div>
          );
        }
 
 }
-
 
 
 export default Footer

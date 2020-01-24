@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+   import React, { Component } from 'react';
 import './App.css';
 // import {Switch, Route, Link} from 'react-router-dom'
 import axios from 'axios'
@@ -13,6 +13,9 @@ const cocktailURL = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s='
 //url for Liquor info
 const liquorURL = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?i=vodka'
 
+
+//test URL
+const testURL = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?i=vodka'
 
 // basic format ->
 // header (h1 title)
@@ -33,12 +36,12 @@ class App extends Component {
     //setting up API call for 1st section -> liquor info
 
         fetchDrinks = async () => {
-          const response = await axios.get('')
+          const response = await axios.get('https://www.thecocktaildb.com/api/json/v1/1/search.php?i=vodka')
           const data= response.data
           this.setState({
             liquors: data
           })
-
+          console.log(data)
         }
 
         //component did mount for liquor info
@@ -53,16 +56,31 @@ class App extends Component {
       console.log(this.state.liquors)
       return (
         <div className="App">
-          <h1> React is working</h1>
+              <Header />
           <main>
 
-            <Header />
+        
+          {/* <Route
+        exact path= '/'
+        component= {
+        ()=> <Heroes newHero={this.state.characters}/> 
+        }/>
+
+        <Route
+        exact path= '/:id'
+        component={
+          (navProps)=> <Profile navProps={navProps} />
+        }/> */}
+
              
             <Main />
 
-            <Footer/>
-
+           
+           
           </main>
+        
+          <Footer/>
+          
         </div>
        );
      }

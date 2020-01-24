@@ -5,8 +5,22 @@ body{
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  text-align: center;
 }
 
 .App{
 color: white;
+}
+
+
+.Header {
+background-color: black;
+padding: 10px;
+letter-spacing: 5px
+
+}
+
+.Footer {
+  background-color: aqua;
+  padding: 15px;
 }

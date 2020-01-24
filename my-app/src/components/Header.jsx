@@ -7,7 +7,7 @@ class Header extends Component{
 
         return (
           <div className="Header">
-            <h1> Header is working</h1>
+            <h1> Bottoms Up!</h1>
           </div>
          );
        }
