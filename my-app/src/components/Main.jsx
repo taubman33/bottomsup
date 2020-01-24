@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import Drink_Recipe from './components/Drink_Recipe'
+import Drink_Recipe from './Drink_Recipe'
 
 class Main extends Component{
   constructor (props){
@@ -8,13 +8,11 @@ class Main extends Component{
      
     }
 
-
     render () {
-
         return (
           <div className="Main">
             <h1> Main is working </h1>
-          {/* <Drink_Recipe /> */}
+          <Drink_Recipe />
           </div>
          );
        }

@@ -1,6 +1,5 @@
 body{
-
-  background-color: #ffa500;
+   background-color: #ffa500;
   background-image: url('./components/bar1.jpg');
   background-attachment: fixed;
   background-position: center;
@@ -24,4 +23,15 @@ letter-spacing: 5px
   background-color: Black;
   color: white;
   padding: 15px;
+  font-size: 33px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.cocktails{
+  color: blue;
+  background-color: white;
+  border: 10px solid black;
+  padding: 10em;
 }

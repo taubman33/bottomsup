@@ -51,23 +51,22 @@ class App extends Component {
 
     //rendering the info
 
-    render () {
-      console.log(this.state.liquors)
-     
-     
-      return (
-
-        <div className="App">
+          render () {
+            console.log(this.state.liquors)
           
-          <Header />
-          
-             
-          <Main />
+            return (
 
-          
-          <Footer/>  
+              <div className="App">
+                
+                <Header />
+                
+                  
+                <Main />
 
-        </div>
+                
+                <Footer/>  
+
+              </div>
        );
      }
 }
