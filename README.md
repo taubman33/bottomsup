@@ -12,17 +12,29 @@ A cocktail recipe search tool that also has a pulldown menu to learn about diffe
   "drinks": [
         {
             "idDrink": "11728",
+	    
             "strDrink": "Martini",
+	    
             "strCategory": "Cocktail",
+	    
             "strIBA": "Unforgettables",
+	    
             "strAlcoholic": "Alcoholic",
+	    
             "strGlass": "Cocktail glass",
+	    
             "strInstructions": "Straight: Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled  martini cocktail glass. Squeeze oil from lemon peel onto the drink, or garnish with olive.",
+	    
              "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/71t8581504353095.jpg",
+	     
             "strIngredient1": "Gin",
+	    
             "strIngredient2": "Dry Vermouth",
+	    
             "strIngredient3": "Olive",
+	    
             "strIngredient4": null,
+	    
             "strIngredient5": null,
 
 ## Wireframes
@@ -49,7 +61,7 @@ We are going to have both a search bar where user can search for drinks and have
 
 ## React Component Hierarchy
 
-Include an image of your component hierarchy that shows the data flow and architectural design of your app.
+https://www.draw.io/#G1K2QXlsn0WouRzhUQpdT7LkV0lH3UHyIZ
 
 ## Components
 
@@ -75,7 +87,7 @@ https://www.draw.io/#G1K2QXlsn0WouRzhUQpdT7LkV0lH3UHyIZ
 
 ## Priority Matrix
 
-Include an image of your Priority Matrix (X is time and Y is priority)
+https://wireframe.cc/16EhA5
 
 ## Timeframes
 
