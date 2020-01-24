@@ -1,23 +1,20 @@
 import React, { Component } from 'react'
 import Drink_Recipe from './Drink_Recipe'
+import Liquor_Info from './Liquor_Info'
 
-class Main extends Component{
-  constructor (props){
-    super(props)
-    this.state={}
-     
-    }
+const Main = (props) =>
+   {
+         console.log(props)
 
-    render () {
         return (
           <div className="Main">
-            <h1> Main is working </h1>
-          <Drink_Recipe />
-          </div>
-         );
-       }
+          <Liquor_Info liquor={props.liquor} />
 
-}
+          {/* <Drink_Recipe /> */}
+          </div>
+   
+        );
+   }
 
 
 export default Main

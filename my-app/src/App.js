@@ -48,7 +48,6 @@ class App extends Component {
             this.fetchDrinks()
           }
 
-
     //rendering the info
 
           render () {
@@ -61,7 +60,7 @@ class App extends Component {
                 <Header />
                 
                   
-                <Main />
+                <Main liquors={this.state.liquors} />
 
                 
                 <Footer/>  
@@ -70,8 +69,6 @@ class App extends Component {
        );
      }
 }
-
-
 
 //export section
 export default App;
