@@ -74,7 +74,7 @@ https://www.draw.io/#G1K2QXlsn0WouRzhUQpdT7LkV0lH3UHyIZ
 
 | Header | This will just have the title (I prefer having Home button at the footer) | Functional |
 
-| Main | This will hold the links for the 2 sections, Cocktail recipes + Liquor info | Class |
+| Main | This will hold the links for the 2 sections, Cocktail recipes + Liquor info | Functional |
 
 
 | Cocktails | this will hold the section for the api/s link -> a search bar, and a card to display the drinks | class |
@@ -83,7 +83,7 @@ https://www.draw.io/#G1K2QXlsn0WouRzhUQpdT7LkV0lH3UHyIZ
 | Liquors | This link from the Main will link from api/i ->  will show a drop menu with types of liquor (Vodka, Bourbon, Gin...) | class |
 | Drop bar and Liquors | This will be a selectable menu for ~10 types of liquors, that will display their info when clicked on | class |
 
-| Footer | will have social media links + Home button | class |
+| Footer | will have social media links + Home button | Functional |
 
 ## Priority Matrix
 
@@ -115,8 +115,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Jan 24th| Project Pitch / Wireframes / Priority Matrix / Functional Components | Incomplete
-|Jan 27th| Pseudocode js| Incomplete
+|Jan 24th| Project Pitch / Wireframes / Priority Matrix / Functional Components | complete
+|Jan 27th| Get Search Bar and Buttons connected properly | incomplete
 |Jan 28th| getting API running and rendering properly (1 section | Incomplete
 |Jan 29th| Both sections working  | Incomplete
 |Jan 30th| And after a while... you can work on points for style... | Incomplete
