@@ -116,8 +116,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |Jan 24th| Project Pitch / Wireframes / Priority Matrix / Functional Components | complete
-|Jan 27th| Get Search Bar and Buttons connected properly | incomplete
-|Jan 28th| getting API running and rendering properly (1 section | Incomplete
+|Jan 27th| Get Search Bar running and cocktail recipe rendered | Complete
+|Jan 28th| setting up button/liquor info section | Incomplete
 |Jan 29th| Both sections working  | Incomplete
 |Jan 30th| And after a while... you can work on points for style... | Incomplete
 |Jan 31tst| Present | Incomplete
