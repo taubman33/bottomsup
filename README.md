@@ -96,11 +96,11 @@ Timeframes are key in the development cycle. You have limited time to code and s
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Setting up site framework | H | 3hrs|  |  |
-| Getting API to log | H | 3hrs|  | |
-| Linking all components | H | 4hrs|  |  |
-| Getting search and drop bars functioning | H | 6hrs|  |  |
-| Getting API to render everything correctly | H | 3hrs| | |
+| Setting up site framework | H | 3hrs| 3hrs | 3hrs |
+| Getting API to log and render | H | 3hrs|  5-6hrs | 6hrs |
+| Linking all components | H | 4hrs| 3hrs | 3hrs  |
+| Getting search and drop bars functioning | H | 6hrs| 4hrs | 4hrs |
+| Routing | H | 4 | 3 | 3|
 | Styling| M | 4hrs|  | |
 
 
@@ -117,8 +117,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Jan 24th| Project Pitch / Wireframes / Priority Matrix / Functional Components | complete
 |Jan 27th| Get Search Bar running and cocktail recipe rendered | Complete
-|Jan 28th| setting up button/liquor info section | Incomplete
-|Jan 29th| Both sections working  | Incomplete
+|Jan 28th| setting up button/liquor info section | Complete
+|Jan 29th| Both sections working  | Complete
 |Jan 30th| And after a while... you can work on points for style... | Incomplete
 |Jan 31tst| Present | Incomplete
 
@@ -128,7 +128,9 @@ Use this section to list all supporting libraries and thier role in the project.
 
 ## Issues and Resolutions
 
-Use this section to list of all major issues you anticipate encountering during development and how you plan to tackle them. Be sure to update this section during development, documenting the actual resolutions you inacted, as well as any other unexpected obstacles you encountered along the way.
+Getting info from the Buttons/Liquor Info to render was an issue, errors kept coming up whenever the site was linked... this was solved by setting up an if/else for the return so that if the value was Null then nothing would go, thus preventing the error, but letting it load properly when a button was pressed.
+
+The second issue came from the routes, my Liquor Info section was loading up at the home screen, and NOT when in its proper component. Any attempts to re-route them and get them rendering correctly brought up errors; this was solved in a most brilliant solution, Michael saying 'Make that the Default screen, say it was done on purpose, just focus on the 2nd (cocktail recipe) route". That route is working now and the default screen is loading properly.
 
 ## Code Snippet
 
