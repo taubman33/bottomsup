@@ -132,14 +132,35 @@ Getting info from the Buttons/Liquor Info to render was an issue, errors kept co
 
 The second issue came from the routes, my Liquor Info section was loading up at the home screen, and NOT when in its proper component. Any attempts to re-route them and get them rendering correctly brought up errors; this was solved in a most brilliant solution, Michael saying 'Make that the Default screen, say it was done on purpose, just focus on the 2nd (cocktail recipe) route". That route is working now and the default screen is loading properly.
 
+Finally, I had a lot of problem getting the responsive part to work. As of Thursday afternoon, it isn't very well. By tomorrow morning, hopefully it will be.
+
 ## Code Snippet
 
 Use this section to include a brief code snippet you are proud of, along with a brief description of why.
 
+
+I am happy with the way my routing worked, as well as how Props were successfully passed down through the different components involved.
+
+
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+<Main
+            liquor={this.state.liquor}
+            cocktails={this.state.cocktails}
+            searchInput={this.state.searchInput}
+            handleClick={this.handleClick}
+            handleChange={this.handleChange}
+          />
+
+        <Route exact path="/" render={()=>(
+        <DropMenu 
+        handleClickButton={this.handleClickButton}
+        /> )
+        }/>
+        <Route exact path="/Spirits/:liquors" render={(props)=>(
+        <DropMenu {...props}
+        liquor={this.state.liquor}
+        handleClickButton={this.handleClickButton}
+        />)}/>
 ```
 
 ## Change Log
