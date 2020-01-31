@@ -96,16 +96,16 @@ Timeframes are key in the development cycle. You have limited time to code and s
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Setting up site framework | H | 3hrs| 3hrs | 3hrs |
+| Setting up site framework | H | 4hrs| 5hrs | 5hrs |
 | Getting API to log and render | H | 3hrs|  5-6hrs | 6hrs |
 | Linking all components | H | 4hrs| 3hrs | 3hrs  |
-| Getting search and drop bars functioning | H | 6hrs| 4hrs | 4hrs |
-| Routing | H | 4 | 3 | 3|
-| Styling| M | 4hrs|  | |
+| Getting search and drop bars functioning | H | 6hrs| 7hrs | 7hrs |
+| Routing | H | 4 | 4 | 4|
+| Styling| M | 4hrs|  4hrs| 4hrs |
 
 
 
-| Total | H | 20+ hrs |  ||
+| Total | H | 20+ hrs |30 hrs  | 30hrs|
 
 ## Project Schedule
 
@@ -119,12 +119,19 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Jan 27th| Get Search Bar running and cocktail recipe rendered | Complete
 |Jan 28th| setting up button/liquor info section | Complete
 |Jan 29th| Both sections working  | Complete
-|Jan 30th| And after a while... you can work on points for style... | Incomplete
+|Jan 30th| And after a while... you can work on points for style... | Complete
 |Jan 31tst| Present | Incomplete
 
 ## Additional Libraries
 
 Use this section to list all supporting libraries and thier role in the project. React Router Dom and Axios should be listed here at the very least.
+
+- React Router - used to switch between the main and Cocktail Search sections
+- Axios - used to pull info from cocktailDB API
+- cocktailDB - main API used for info;
+- cocktaildb/i - 'ingredient' section, used for Liquor Info component sections
+- cocktaildb/s - 'search' section used for Cocktail Recipe component sections
+
 
 ## Issues and Resolutions
 
