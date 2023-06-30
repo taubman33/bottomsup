@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Drink_Recipe from './Drink_Recipe'
 import Liquor_Info from './Liquor_Info'
+import Home from './Home'
 
 const Main = (props) =>
    {
