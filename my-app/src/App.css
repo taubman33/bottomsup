@@ -79,3 +79,9 @@ margin-bottom: 3em;
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: grey;}
+
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}

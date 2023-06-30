@@ -49,8 +49,7 @@ const App = () => {
                 <Header />
                 
                   
-                
-               <h2> The Station for your Libations </h2>
+                <Main/>
 
                 
                 <Footer/>  
