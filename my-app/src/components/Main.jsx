@@ -14,7 +14,6 @@ const Main = (props) =>
 
           <Route path="/>" element={<Home/>} />
             <Route path="/liquors>" element={<Liquor_Info liquor={props.liquor}/>} />
-            <Route path="/liquors>" element={<Liquor_Info liquor={props.liquor}/>} />
             <Route path="/drinks>" element={<Drink_Recipe/>} />
 
           </Routes>
