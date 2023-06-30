@@ -60,7 +60,8 @@ class App extends Component {
                 <Header />
                 
                   
-                <Main liquors={this.state.liquors} />
+                <h1> Bottoms Up!>
+               <h2> The Station for your Libations <h2>
 
                 
                 <Footer/>  
