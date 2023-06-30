@@ -7,7 +7,7 @@ class Footer extends Component{
           <div className="Footer">
             <footer>
 
-          Footer is working
+          2021 JT
           
           </footer>
           </div>
