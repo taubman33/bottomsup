@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import axios from 'axios'
 
 ///next steps
@@ -6,17 +6,10 @@ import axios from 'axios'
 //  having menu link to api call 
 // checking that linked item creates right data 
 // rendering data to screen 
-
-  class Liquor_Info extends Component {
-         constructor (props){
-          super(props)
-          this.state={
-          liquor: []
-                }
-              }
+const Liquor_Info = () => {
+const [liquor, setLiquor] = useState('')
 
 
-   render() {
     return(
        <div className= "cocktails">
            <div class="dropdown">
@@ -36,7 +29,7 @@ import axios from 'axios'
         </div>
       );
     }
-}
+
 
 
 export default Liquor_Info

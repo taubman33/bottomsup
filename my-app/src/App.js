@@ -1,4 +1,4 @@
-   import React, { Component } from 'react';
+   import React, {useState} from 'react';
 import './App.css';
 // import {Switch, Route, Link} from 'react-router-dom'
 import axios from 'axios'
@@ -25,33 +25,22 @@ const testURL = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?i=vodka'
 // comp 2 -> cocktail recipe (url / s search) -> searchbar -> drink recipe card 
 // footer -> social media links + home button
 
-class App extends Component {
-  constructor (props){
-    super(props)
-    this.state={
-    liquors: []
-     }
-    }
+const App = () => {
+
+  const [drinks, setDrinks] = useState([])
 
     //setting up API call for 1st section -> liquor info
 
         fetchDrinks = async () => {
           const response = await axios.get(testURL)
           const data= response.data
-          this.setState({
-            liquors: data
-          })
+          setDrinks(data)
         }
 
-        //component did mount for liquor info
-          componentDidMount(){
-            this.fetchDrinks()
-          }
 
     //rendering the info
 
-          render () {
-            console.log(this.state.liquors)
+  
           
             return (
 
@@ -68,7 +57,6 @@ class App extends Component {
 
               </div>
        );
-     }
 }
 
 //export section
