@@ -60,7 +60,7 @@ class App extends Component {
                 <Header />
                 
                   
-                <h1> Bottoms Up!>
+                
                <h2> The Station for your Libations <h2>
 
                 
