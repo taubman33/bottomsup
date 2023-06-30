@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Drink_Recipe from './Drink_Recipe'
-import Liquor_Info from './Liquor_Info'
+import DrinkRecipe from './DrinkRecipe'
+import LiquorInfo from './LiquorInfo'
 import Home from './Home'
 
 const Main = (props) =>
@@ -13,12 +13,11 @@ const Main = (props) =>
 
           <Routes>
 
-          <Route path="/>" element={<Home/>} />
-            <Route path="/liquors>" element={<Liquor_Info liquor={props.liquor}/>} />
-            <Route path="/drinks>" element={<Drink_Recipe/>} />
+          <Route exact path="/" element={<Home/>} />
+            <Route exact path="/liquors" element={<LiquorInfo/>} />
+            <Route exact path="/drinks" element={<DrinkRecipe/>} />
 
           </Routes>
-          {/* <Drink_Recipe /> */}
           </div>
    
         );

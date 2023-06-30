@@ -5,7 +5,6 @@ import axios from 'axios'
 import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
-import Drink_Recipe from './components/Drink_Recipe'
 
 
 //url for Drink search

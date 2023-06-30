@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
 ///next steps
@@ -6,9 +7,10 @@ import axios from 'axios'
 //  having menu link to api call 
 // checking that linked item creates right data 
 // rendering data to screen 
-const Liquor_Info = () => {
+const LiquorInfo = () => {
 const [liquor, setLiquor] = useState('')
-
+console.log('liquor info working')
+let navigate = useNavigate
 
     return(
        <div className= "cocktails">
@@ -32,4 +34,4 @@ const [liquor, setLiquor] = useState('')
 
 
 
-export default Liquor_Info
+export default LiquorInfo
