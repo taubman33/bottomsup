@@ -1,4 +1,4 @@
-   import React, {useState} from 'react';
+import React, {useState} from 'react';
 import './App.css';
 // import {Switch, Route, Link} from 'react-router-dom'
 import axios from 'axios'
@@ -31,11 +31,11 @@ const App = () => {
 
     //setting up API call for 1st section -> liquor info
 
-        fetchDrinks = async () => {
-          const response = await axios.get(testURL)
-          const data= response.data
-          setDrinks(data)
-        }
+        // fetchDrinks = async () => {
+        //   const response = await axios.get(testURL)
+        //   const data= response.data
+        //   setDrinks(data)
+        // }
 
 
     //rendering the info
