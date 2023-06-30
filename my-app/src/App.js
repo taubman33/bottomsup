@@ -61,7 +61,7 @@ class App extends Component {
                 
                   
                 
-               <h2> The Station for your Libations <h2>
+               <h2> The Station for your Libations </h2>
 
                 
                 <Footer/>  
